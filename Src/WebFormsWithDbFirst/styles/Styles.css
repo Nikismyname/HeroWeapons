@@ -1,0 +1,30 @@
+﻿#side-nav {
+    background-color: gray;
+}
+
+#user-control {
+    background-color: slategray;
+}
+
+#hero-table {
+    background-color: white;
+}
+
+#all-hero-names{
+   background-color: green; 
+}
+
+#all-weapons-names{
+    background-color: orangered;
+}
+
+.row {
+    overflow: hidden;
+}
+
+[class*="col-"] {
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+

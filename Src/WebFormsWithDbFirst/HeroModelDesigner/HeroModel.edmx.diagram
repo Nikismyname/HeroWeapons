@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="455888fc0b4f4c80b57558819ee3a393" Name="Diagram1" ZoomLevel="98">
+        <EntityTypeShape EntityType="HeroModel.Hero" Width="1.5" PointX="0.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HeroModel.HeroWeapon" Width="1.5" PointX="2.75" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HeroModel.Weapon" Width="1.5" PointX="5.125" PointY="0.625" IsExpanded="true" />
+        <AssociationConnector Association="HeroModel.FK__HeroWeapo__HeroI__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="HeroModel.FK__HeroWeapo__Weapo__403A8C7D" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
